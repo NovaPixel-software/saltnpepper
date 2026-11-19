@@ -322,7 +322,7 @@ footer.site{background:var(--dark);color:#bdb8a6;padding:70px 0 0;position:relat
 .fcols h4{color:#fff;font-size:1.1rem;margin-bottom:14px}
 .fcols ul{list-style:none;display:grid;gap:9px}
 .fcols a{text-decoration:none}.fcols a:hover{color:var(--y)}
-.flogo{background:#fff;display:inline-block;padding:10px 16px;border-radius:12px;margin-bottom:16px}
+.flogo{display:inline-block;margin-bottom:16px}
 .flogo img{height:50px;width:auto}
 .fbot{margin-top:44px;padding:20px 0;border-top:1px solid #322e22;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:.86rem}
 @media(max-width:900px){.fcols{grid-template-columns:1fr 1fr}}

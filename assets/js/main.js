@@ -94,9 +94,6 @@
     var y = window.scrollY, h = document.documentElement.scrollHeight - window.innerHeight;
     if (prog) prog.style.transform = 'scaleX(' + (h > 0 ? Math.min(1, y / h) : 0) + ')';
     if (btt) btt.classList.toggle('show', y > 700);
-    if (head && !document.body.classList.contains('menu-open')) {
-      if (y > lastY + 6 && y > 300) head.classList.add('hide'); else if (y < lastY - 6 || y < 200) head.classList.remove('hide');
-    }
     lastY = y;
   }
   window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
